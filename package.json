@@ -1,0 +1,21 @@
+{
+  "name": "webpack-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack --entry ./index.js --output ./bundle.js --mode development",
+    "build:local": "webpack --mode production",
+    "build:external": "webpack --config ./external/webpack.config.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@JesidMsanz",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.12"
+  }
+}
